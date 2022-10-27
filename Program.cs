@@ -1,5 +1,5 @@
 ﻿class Program {
-  private static readonly int GRID_SIZE = 3; // Change to play on a bigger grid. (Min: 2)
+  private const int GRID_SIZE = 3; // Change to play on a bigger grid. (Min: 2)
 
   static void Main(string[] args) {
     char[] board = Enumerable.Range(0, GRID_SIZE * GRID_SIZE).Select(_ => ' ').ToArray();
